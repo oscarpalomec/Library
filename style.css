@@ -1,0 +1,30 @@
+body {
+    background-color: #FBF9F3;
+}
+
+#header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+    color: #323846;
+}
+
+#add-button{
+   background-color: #323232;
+   color: #c3f7eb;
+   width: 20%;
+   font-size: large;
+   padding: 1%;
+   border-radius: 10px;
+   cursor: pointer;
+
+  
+}
+
+#book-container{
+    width: 100%;
+}
