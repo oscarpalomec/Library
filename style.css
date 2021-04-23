@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 #title {
@@ -27,4 +28,14 @@ body {
 
 #book-container{
     width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.text {
+    color: #88D9F3;
+    font-weight: 600;
+    margin-top: .875rem;
+    margin-bottom: .875rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
