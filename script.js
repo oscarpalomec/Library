@@ -1,5 +1,6 @@
-const button = document.getElementById("add-button");
+const button = document.getElementById("show-modal");
 const bookContainer = document.getElementById("book-container");
+
 
 let myLibrary = [
   { title: "It", author: "Stephen King", pages: "1138", read: true },
@@ -37,6 +38,14 @@ function addBookToLibrary() {
   console.log(myLibrary.length);
 }
 
+function showModal (){
+  document.querySelector(".bg-modal").style.display = "flex";
+}
+
+function closeModal () {
+  document.querySelector(".bg-modal").style.display = "none";
+}
+
 let displayBook = (book) => {
     let div = document.createElement("div");
   let bookTitle = document.createElement("span");
@@ -60,7 +69,7 @@ let displayBook = (book) => {
   bookContainer.appendChild(div);
 };
 
-button.addEventListener("click", addBookToLibrary);
+button.addEventListener("click", showModal);
 
 console.log(myLibrary);
 
@@ -87,6 +96,8 @@ myLibrary.forEach((book) => {
   bookContainer.appendChild(div);
   console.log(book.title);
 });
+
+document.querySelector(".close").addEventListener("click", closeModal )
 
 /*function Book (title, author, pages, read) {
     this.title = title;
