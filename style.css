@@ -14,7 +14,7 @@ body {
     color: #323846;
 }
 
-#add-button{
+#show-modal, #add-book-button{
    background-color: #323232;
    color: #c3f7eb;
    width: 20%;
@@ -83,4 +83,8 @@ input {
     font-size: 40px;
     transform: rotate(45deg);
     cursor: pointer;
+}
+
+label{
+    display: flex;
 }
