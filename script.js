@@ -1,23 +1,9 @@
 let myLibrary = [
-  /*{ title: "It", author: "Stephen King", pages: "1138", read: true },
-  {
-    title: "Big Little Lies",
-    author: "Liane Moriarty",
-    pages: "458",
-    read: false,
-  },
-  { title: "The analyst", author: "John Katzenbach", pages: "528", read: true },
-  { title: "Sharp Objects", author: "Gillian Flynn", pages: "328", read: true }, */
+  
 ];
-
 
 const modalButton = document.getElementById("show-modal");
 const bookContainer = document.getElementById("book-container");
-//const Title = document.getElementById("Title")
-//const title = document.querySelector("#title").value;
-
-
-
 
 class Book {
   constructor(title, author, pages, read) {

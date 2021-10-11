@@ -87,4 +87,13 @@ input {
 
 label{
     display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+#read {
+    margin: 0;
+    margin-left: 20px;
 }
